@@ -1,0 +1,7 @@
+{
+  "livePreview.defaultPreviewPath": "/index.html",
+  "files.associations": {
+    "iostream": "cpp",
+    "ostream": "cpp"
+  }
+}
