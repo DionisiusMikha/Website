@@ -12627,23 +12627,3 @@ textarea.form-control {
 .footer_area .footer_social a i:hover {
   color: #854fee;
 }
-.footer_social {
-  text-align: center;
-  margin: 25px 0px 30px;
-  a {
-    padding: 0px 20px;
-    i {
-      color: #788489;
-      font-size: 22px;
-      @include transition();
-      @media (max-width: 576px) {
-        font-size: 25px;
-      }
-      &:hover {
-        color: $primary-color2;
-      }
-    }
-  }
-  .kotak1{
-    border-radius: 10px;
-  }
