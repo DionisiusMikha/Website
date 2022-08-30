@@ -3408,7 +3408,11 @@ input[type="button"].btn-block {
   left: auto;
 }
 
-@media (min-width: 576px) {
+/* MOBILE */
+@media (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 1) {
+  * {
+    overflow-x:hidden ;
+  }
   .dropdown-menu-sm-left {
     right: auto;
     left: 0;
@@ -3419,7 +3423,8 @@ input[type="button"].btn-block {
   }
 }
 
-@media (min-width: 768px) {
+/* TABLET */
+@media (min-width: 768px) and (max-width: 991px) {
   .dropdown-menu-md-left {
     right: auto;
     left: 0;
